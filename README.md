@@ -21,9 +21,9 @@ This script that combines all the commands to install the Theta Edge Node Docker
   ```
   sudo nano path/to/your/install_theta_edge_node.sh
   ```
-  2. Use git to download specific file from github repo. On your machine navigate to `cd path/to/your/directory` and download desired file via weblink using command `wget`
+  2. Use git to download specific file from github repo. On your machine navigate to `cd path/to/your/directory` and download desired file via weblink using commands `wget` or `curl`
   ```
-  wget https://github.com/JozeFons/Theta_Edge_Node_script/blob/main/install_theta_edge_node.sh
+  wget -O install_theta_edge_node.sh https://raw.githubusercontent.com/JozeFons/Theta_Edge_Node_script/main/install_theta_edge_node.sh
   ```
 
 This script will perform the following tasks:
